@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
+    <link rel="stylesheet" href="css/normalaize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-            <h1>Joaquim Grabalosa Freelancer</h1>
+            <h1 class="titulo">Joaquim Grabalosa <span>Freelancer</span></h1>
     </header>
 
     <nav>
@@ -21,7 +27,7 @@
     <img src="img/hero.jpg" alt="">
 
     <section>
-            <h2>Diseño y Desarrollo Web Freelancer</h2>
+            <h2 class="titulo">Diseño y Desarrollo Web Freelancer</h2>
             
                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#ffc107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -83,6 +89,38 @@
 
     <section>
         <h2>Contacto</h2>
+        
+        <form>
+            <fieldset>
+                <legend>Contactanos llenando todos los campos</legend>
+
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Tu Nombre"/>
+                </div>
+                
+                <div>
+                    <label>Telèfono</label>
+                    <input type="tel" placeholder="Tu Telèfono"/>
+                </div>
+
+                <div>
+                    <label>Correo</label>
+                    <input type="email" placeholder="Tu Email">
+                </div>    
+                
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </fieldset>
+        </form>
+
     </section>
 
     <footer>
