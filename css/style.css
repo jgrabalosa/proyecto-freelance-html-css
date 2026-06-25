@@ -19,3 +19,18 @@ body{
 .titulo span {
     font-size: 2rem;
 }
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.nav_bg{
+    background-color: var(--secundario);
+}
+.navegacion_principal {
+    padding: 1rem;
+}
+.navegacion_principal a {
+    background-color: var(--primario);
+    color: var(--blanco);
+    text-decoration: none;
+}
